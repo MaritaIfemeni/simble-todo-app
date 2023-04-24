@@ -1,14 +1,23 @@
 # To-do list
 
-Create a simple application to let users add/remove/edit tasks.
-Tasks should have: title, deadline, status
-![task-list](task_list.png)
-![add-task](add_task.png)
-![edit-task](edit_task.png)
+In this project I created very simple to-do-app with vanilla JavaScript and SCSS.
 
-## Requirements
-* `Title` should be unique
-* `Status` is one of 3 options : `["not started", "in progress", "done"]`
-* Form to add/edit tasks should be opened/closed by clicking on a button (see the screenshot)
-* Deploy your project to github page and provide link to your live server in README. Make sure your README file is informative and codes are well-formatted
-* Only minimum style (with SASS) is needed.
+## Functionality
+
+- Add new task
+- Edit tasks
+- Delete tasks
+- Does not save the tasks to the local storage only shows them in the browser
+
+## Link to the project
+
+Checkout the project from TODO:ADD THE LINK WHEN READY **[here]()**.
+
+## Technologies
+
+- HTML5
+- SCSS
+- JavaScript
+
+## Project structure
+```	bash

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Simble to do app</title>
+    <title>Simple to do app</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -12,10 +12,37 @@
       <h1>Task List</h1>
       <form>
         <input type="text" id="new-task" placeholder="Add a new task" />
+        <label for="due-date">Due Date:</label>
+        <input type="date" id="due-date" />
+        <label for="completion-status">Completion Status:</label>
+        <select id="completion-status">
+          <option value="incomplete">Incomplete</option>
+          <option value="inprogress">Inprogress</option>
+          <option value="complete">Complete</option>
+        </select>
         <button type="submit" id="add-task">Add Task</button>
       </form>
       <ul id="task-list"></ul>
     </div>
-    <script src="script.js"></script>
+<div>
+    <form id="edit-form">
+        <label for="edit-task">Task:</label>
+        <input type="text" id="edit-task" required>
+        <br>
+        <label for="edit-due-date">Due Date:</label>
+        <input type="date" id="edit-due-date" required>
+        <br>
+        <label for="edit-completion-status">Completion Status:</label>
+        <select id="edit-completion-status" required>
+          <option value="incomplete">Incomplete</option>
+          <option value="inprogress">In Progress</option>
+          <option value="complete">Complete</option>
+        </select>
+        <br>
+        <button type="submit">Save</button>
+        <button type="button" id="cancel-edit">Cancel</button>
+      </form>
+</div>
+    <script type="text/javascript" src="js/index.js"></script>
   </body>
 </html>

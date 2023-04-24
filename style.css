@@ -1,3 +1,6 @@
+/*TODO:
+  add SCSS and little styling.*/
+  
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -68,3 +71,36 @@ body {
     cursor: pointer;
   }
   
+
+  label {
+    margin-right: 10px;
+  }
+  
+  input[type="date"] {
+    margin-right: 10px;
+  }
+  
+  select {
+    margin-right: 10px;
+  }
+  
+  .due-date {
+    margin-left: 10px;
+  }
+  
+  .completion-status {
+    margin-left: 10px;
+    font-weight: bold;
+    color: green;
+  }
+  
+  .completion-status[value="incomplete"] {
+    color: red;
+  }
+
+  #edit-form {
+    display: none;
+  }
+  #edit-form.active {
+    display: block;
+  }
