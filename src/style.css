@@ -1,0 +1,125 @@
+button {
+  background-color: #d9534f;
+  color: #fff;
+  border: none;
+  border-radius: 0.5em;
+  padding: 0.5em;
+  cursor: pointer;
+}
+
+/*TODO:
+  add SCSS and little styling.*/
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 60%;
+  margin: auto;
+  padding: 1em;
+  white-space: nowrap;
+}
+.container form {
+  display: flex;
+  justify-content: center;
+}
+.container form label {
+  padding: 1em 0.5em 1em 0.5em;
+}
+.container form input {
+  padding: 0.5em;
+}
+.container form select {
+  margin: auto;
+  padding: 0.5em;
+  font-size: 1.2em;
+  border-style: solid;
+  border-radius: 0.5em;
+}
+.container form button {
+  margin-left: 2em;
+  font-size: 1.5em;
+  border-radius: 0.5em;
+  border: none;
+  background-color: rgba(155, 186, 0, 0.7882352941);
+  color: #fff;
+  cursor: pointer;
+  width: 60%;
+  height: 80%;
+  gap: 1em;
+}
+
+h1 {
+  text-align: center;
+}
+
+input[type=text] {
+  padding: 1em;
+  text-align: center;
+  font-size: 1.2em;
+  border-radius: 1em;
+  background-color: antiquewhite;
+  width: 100%;
+}
+
+input[type=date] {
+  border-style: solid;
+  text-align: center;
+  font-size: 1.2em;
+  border-radius: 1em;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f7f7f7;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+li span {
+  flex-grow: 1;
+  margin-right: 1em;
+}
+
+.completion-status {
+  padding: 3em;
+  font-weight: bold;
+  color: green;
+}
+
+#edit-completion-status {
+  margin: auto;
+  padding: 0.5em;
+  font-size: 1.2em;
+  border-style: solid;
+  border-radius: 0.5em;
+}
+
+#edit-form {
+  display: none;
+  max-width: 60%;
+  margin: auto;
+  padding: 1em;
+  white-space: nowrap;
+}
+#edit-form input {
+  margin: 1em;
+}
+
+#edit-form.active {
+  display: block;
+  max-width: 50%;
+}
+
+/*# sourceMappingURL=style.css.map */
