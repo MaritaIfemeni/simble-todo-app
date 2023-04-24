@@ -11,7 +11,7 @@ In this project I created very simple to-do-app with vanilla JavaScript and SCSS
 
 ## Link to the project
 
-Checkout the project from TODO:ADD THE LINK WHEN READY **[here]()**.
+Checkout the project from **[here](https://maritaifemeni.github.io/fs15_3-todo-app/)**.
 
 ## Technologies
 
@@ -21,3 +21,16 @@ Checkout the project from TODO:ADD THE LINK WHEN READY **[here]()**.
 
 ## Project structure
 ```	bash
+ fs15_3-todo-app
+    ├── README.md
+    ├── js
+    │   └── index.js
+    ├── package.json
+    └── src
+        ├── index.html
+        ├── style.css
+        ├── style.css.map
+        └── styles
+            ├── extends
+            │   └── _buttons.scss
+            └── style.scss
